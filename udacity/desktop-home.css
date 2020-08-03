@@ -1,0 +1,22 @@
+@media only screen and (min-device-width : 601px) and (max-device-width : 900px) {
+
+
+  main{
+    width:800px;
+  }
+
+  .cards{
+    grid-template-columns: auto;
+    align-items: center;
+    grid-gap: 40px;
+  }
+  .nav{
+  display:none;
+  grid-template-rows: 0.1fr;
+}
+.footer{
+display:none;
+grid-template-rows: 0.1fr;
+}
+
+  }
